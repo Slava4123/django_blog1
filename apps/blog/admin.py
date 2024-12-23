@@ -16,4 +16,4 @@ class PostAdmin(admin.ModelAdmin):
     """
     Админ-панель модели записей
     """
-    prepopulated_fields = {'slug': ('title', )}
+    prepopulated_fields = {'slug': ('title',)}
